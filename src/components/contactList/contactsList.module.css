@@ -1,0 +1,22 @@
+.contactsListItem {
+  display: flex;
+  font-size: 28px;
+  font-weight: 400;
+  justify-content: space-between;
+}
+.contactsListItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+.contactsListButton {
+  display: block;
+  font-size: 20px;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  padding: 3px 14px;
+  background-color: white;
+  text-transform: capitalize;
+}
+.contactsListButton:active {
+  background-color: rgb(43, 43, 142);
+  color: white;
+}
